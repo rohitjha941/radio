@@ -1,0 +1,66 @@
+ 
+#search{
+  margin:10px;
+  margin-left: 15px;
+}
+#flex-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  padding-left:2 rem;
+  padding-right: 2 rem;
+  padding-bottom: 2 rem;
+
+}
+.VidWrapper{
+  margin-left: 15px;
+  position: relative;
+  width: 40vw;
+  height: 55vh;
+  display:inline-block;
+  background-color:cyan;
+  background-image: url("https://i.pinimg.com/originals/a3/8c/ba/a38cbae225a597dd16be170c17a65157.png");
+}
+
+.song{
+  white-space: nowrap; 
+  width: 300px; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+
+}
+#queue{
+  padding:2px 8px 8px 8px;
+  width: 25vw;
+  box-shadow: rgb(187,187,1870) 0px 2px 8px;
+  margin-right:0px;
+
+}
+
+#chat{
+  padding:2px 8px 8px 2px;
+  width: 25vw;
+  box-shadow: rgb(187,187,1870) 0px 2px 8px;
+  margin-right:0px;
+}
+
+.Chat_log{
+
+  min-width:22vw;
+  padding :0.5rem;
+  margin : 1rem;
+  min-height :40vh;
+  font-size: 1.2rem;
+  border :  0.005rem solid grey;
+}
+
+#search
+{
+  padding : 1rem  1rem  1rem  2rem;
+}
+
+
+
+
+#chat-message-input{
+  margin-left: 14px;
+}
