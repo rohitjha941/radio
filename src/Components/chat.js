@@ -1,5 +1,6 @@
 import React from "react";
 import { Header, Table, Segment, Input, Button } from "semantic-ui-react";
+import {wsBase} from "../const"
 
 export default class Chat extends React.Component {
   constructor(props) {
@@ -8,7 +9,7 @@ export default class Chat extends React.Component {
       chatLog: [],
       message: "",
       chatSocket: new WebSocket(
-        `ws://127.0.0.1:8000/ws/chatbox/${this.props.channel}/`,
+        wsBase + `/ws/chatbox/${this.props.channel}/`,
       ),
     };
 

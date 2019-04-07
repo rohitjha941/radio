@@ -1,12 +1,13 @@
 import React, {Component} from 'react'
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player';
+import {wsBase} from "../const"
 
 export default class MasterCommonView extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      streamSocket: new WebSocket(`ws://127.0.0.1:8000/ws/stream/${this.props.match.params.name}/`),
+      streamSocket: new WebSocket(wsBase + `/ws/stream/${this.props.match.params.name}/`),
       url: null ,
       playing: true,
       volume: 0.1,
