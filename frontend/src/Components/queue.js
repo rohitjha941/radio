@@ -23,15 +23,15 @@ export default class Queue extends React.Component {
     
 
     return (
-      <div id="queue">
+      <div style = {{"height" : "55vh"}} id="queue">
 
         <Header as='h3' attached='top'>
             Yet to come . . . 
         </Header>
         
-        <Segment attached>
+        <Segment style = {{"height" : "49vh" , "overflow" : "auto"}} attached>
 
-          <Table basic="very" celled collapsing >
+          <Table   basic="very" celled collapsing >
 
             <Table.Body>
             {myList}
