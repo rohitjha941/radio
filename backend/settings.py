@@ -4,7 +4,7 @@ SECRET_KEY = '6n!66)q41(cccu^goe_l%y%mh!k+ditvq)_9b-dc9_*#e*fys6'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["wavify.herokuapp.com"]
 
 
 # Application definition
